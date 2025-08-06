@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PsyHelp.Click - Профессиональная психологическая помощь онлайн</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <div class="logo">
+                <img src="logo.png" alt="PsyHelp.Click" class="logo-img">
+                <span>PsyHelp.Click</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#about">О Нас</a></li>
+                <li><a href="#consultations">Консультации</a></li>
+                <li><a href="#directions">Направления</a></li>
+                <li><a href="#contacts">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-slider">
+                    <div class="slide active">
+                        <h1>Профессиональная психологическая помощь онлайн</h1>
+                        <p>Получите качественную поддержку от ИИ-психолога в удобном для вас формате. Современные технологии для вашего ментального здоровья.</p>
+                    </div>
+                    <div class="slide">
+                        <h1>Преимущества нашего подхода</h1>
+                        <p>Индивидуальный подход, основанный на проверенных методиках психологии. Анализ ваших потребностей и персонализированные рекомендации.</p>
+                    </div>
+                    <div class="slide">
+                        <h1>Удобство онлайн формата</h1>
+                        <p>Консультации из дома, гибкое расписание, полная конфиденциальность. Получайте помощь тогда, когда она вам нужна.</p>
+                    </div>
+                </div>
+                <div class="slider-dots">
+                    <span class="dot active" data-slide="0"></span>
+                    <span class="dot" data-slide="1"></span>
+                    <span class="dot" data-slide="2"></span>
+                </div>
+                <a href="#consultations" class="cta-button">Начать консультацию</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>О Нас</h2>
+            <div class="section-content">
+                <p>PsyHelp.Click — это инновационная платформа, которая объединяет современные технологии искусственного интеллекта с глубокими знаниями в области психологии. Мы создали доверенную среду, где каждый может получить профессиональную психологическую поддержку в удобном формате. Наша миссия — сделать качественную психологическую помощь доступной, гибкой и эффективной для каждого человека. Мы понимаем, что современный мир требует новых подходов к ментальному здоровью, поэтому предлагаем решения, которые соответствуют ритму жизни наших клиентов. Доверие, конфиденциальность и профессионализм — основы нашей работы.</p>
+            </div>
+            
+            <div class="advantages">
+                <div class="advantage-item">
+                    <i class="fas fa-brain"></i>
+                    <h4>Богатый опыт</h4>
+                    <p>Доступ к обширной базе психологических знаний и методик</p>
+                </div>
+                <div class="advantage-item">
+                    <i class="fas fa-user-md"></i>
+                    <h4>Профессиональные консультации</h4>
+                    <p>Качественная помощь на основе проверенных психологических подходов</p>
+                </div>
+                <div class="advantage-item">
+                    <i class="fas fa-dollar-sign"></i>
+                    <h4>Доступные цены</h4>
+                    <p>Психологическая поддержка по справедливой стоимости</p>
+                </div>
+                <div class="advantage-item">
+                    <i class="fas fa-clock"></i>
+                    <h4>Высокая доступность</h4>
+                    <p>Получите помощь в любое время, когда она вам нужна</p>
+                </div>
+                <div class="advantage-item">
+                    <i class="fas fa-shield-alt"></i>
+                    <h4>100% конфиденциальность</h4>
+                    <p>Полная анонимность и защита ваших личных данных</p>
+                </div>
+                <div class="advantage-item">
+                    <i class="fas fa-chart-line"></i>
+                    <h4>Отслеживание прогресса</h4>
+                    <p>Получайте выводы, рекомендации и домашние задания после каждой сессии</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="consultations">
+        <div class="container">
+            <h2>Консультации</h2>
+            <div class="section-content">
+                <h3>Онлайн формат — это удобно, эффективно и современно</h3>
+                <p>Получайте профессиональную психологическую помощь не выходя из дома, в комфортной для вас обстановке и в удобное время.</p>
+            </div>
+            
+            <div class="consultation-options">
+                <div class="option-circle" onclick="openWebChat()">
+                    <i class="fas fa-comments"></i>
+                    <span>Чат на сайте</span>
+                </div>
+                <div class="option-circle" onclick="window.open('https://t.me/psyhelpclick', '_blank')">
+                    <i class="fab fa-telegram"></i>
+                    <span>Telegram чат</span>
+                </div>
+                <div class="option-circle">
+                    <i class="fas fa-video"></i>
+                    <span>Онлайн сессия<br>(аудио/видео)</span>
+                </div>
+                <div class="option-circle">
+                    <i class="fas fa-microphone"></i>
+                    <span>Аудио сообщения<br>(Telegram)</span>
+                </div>
+                <div class="option-circle">
+                    <i class="fas fa-envelope"></i>
+                    <span>Email<br>консультации</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="directions">
+        <div class="container">
+            <h2>Направления</h2>
+            <div class="directions">
+                <div class="direction-plate">
+                    <h4>Индивидуальные консультации</h4>
+                    <p>Персональная работа один на один с фокусом на ваших индивидуальных потребностях. Глубокий анализ ситуации, проработка личных вопросов, развитие навыков самопознания и эмоциональной регуляции. Конфиденциальность и максимальное внимание к вашим запросам.</p>
+                </div>
+                <div class="direction-plate">
+                    <h4>Групповые консультации</h4>
+                    <p>Работа в малых группах до 5 участников. Обмен опытом, взаимная поддержка, развитие социальных навыков. Эффективное решение схожих проблем в поддерживающей атмосфере группы единомышленников.</p>
+                </div>
+                <div class="direction-plate">
+                    <h4>Семейные консультации</h4>
+                    <p>Работа с парами (до 2 взрослых участников). Улучшение коммуникации в отношениях, решение конфликтов, укрепление эмоциональной связи. Помощь в преодолении кризисных периодов и построении здоровых отношений.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacts">
+        <div class="container">
+            <h2>Контакты</h2>
+            <div class="contacts-content">
+                <div class="contact-form">
+                    <h3>Связаться с нами</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Имя (необязательно, можно анонимно)</label>
+                            <input type="text" id="name" name="name" placeholder="Ваше имя или оставьте пустым">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required placeholder="your@email.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="telegram">Telegram (необязательно)</label>
+                            <input type="text" id="telegram" name="telegram" placeholder="@ваш_username">
+                        </div>
+                        <div class="form-group">
+                            <label for="topic">Тема обращения *</label>
+                            <textarea id="topic" name="topic" required rows="4" placeholder="Опишите вашу ситуацию или вопрос..."></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Отправить сообщение</button>
+                    </form>
+                </div>
+                
+                <div class="contact-info">
+                    <div class="contact-plate">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <strong>Email</strong><br>
+                            <a href="mailto:contact@psyhelp.click">contact@psyhelp.click</a>
+                        </div>
+                    </div>
+                    <div class="contact-plate">
+                        <i class="fab fa-telegram"></i>
+                        <div>
+                            <strong>Telegram бот</strong><br>
+                            <a href="https://t.me/psyhelpclick" target="_blank">@psyhelpclick</a>
+                        </div>
+                    </div>
+                    <div class="contact-plate">
+                        <i class="fas fa-phone-alt"></i>
+                        <div>
+                            <strong>Онлайн звонок</strong><br>
+                            Запись через Calendly
+                        </div>
+                    </div>
+                    <div class="contact-plate">
+                        <i class="fas fa-newspaper"></i>
+                        <div>
+                            <strong>Telegram канал</strong><br>
+                            <a href="https://t.me/psyhelpclicknews" target="_blank">Современная психология</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chat Modal -->
+    <div id="chatModal" class="chat-modal">
+        <div class="chat-modal-content">
+            <span class="chat-close">&times;</span>
+            <iframe id="chatFrame" src="" frameborder="0" width="100%" height="500px"></iframe>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer-logo">
+                <img src="logo.png" alt="PsyHelp.Click" class="logo-img">
+            </div>
+            <p>&copy; 2025 PsyHelp.Click. Психологическая поддержка онлайн. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
